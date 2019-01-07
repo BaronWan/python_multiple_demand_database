@@ -12,7 +12,7 @@ class Config:
     'socket': '/var/lib/mysql/mysql.sock'
   }
   SQLALCHEMY_MYSQL_URI = "mysql+pymysql://{user}:{password}@{host}/{db}?unix_socket={socket}&charset=utf8mb4".format(**dbinfo)
-
+```
 
 ## 使用實例
 ```python
@@ -25,5 +25,6 @@ with Database(Config.SQLALCHEMY_MYSQL_URI) as db:
   res = db.execute()
   for row in res:
     print (row)
-    
+```
+
 詳細說明請參閱 Docs/ 文件說明
