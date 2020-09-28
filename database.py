@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__Author__ = 'Wan, Pei-Zhi (Baron. Wan) <boytools@outlook.com>'
+__Author__ = 'Wan Pei Chih'
 __Updated__ = '07 Jan, 2019'
 
 from datetime import datetime
