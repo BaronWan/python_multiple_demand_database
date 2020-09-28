@@ -1,4 +1,6 @@
 # python_multiple_demand_database
+> @Author: Wan Pei Chih  
+
 設計一可應付各種存取資料庫需求的 資料庫模組
 
 ## 創見一 config.py
